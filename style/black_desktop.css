@@ -1078,18 +1078,14 @@ body {
 
 .footer_overlay_three {
   position: absolute;
-  /* top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; */
   width: 1218px;
   height: 1242px;
   top: 1081px;
-  left: 1362px;
+  left: 120px;
   gap: 0px;
   opacity: 0.2;
   border-radius: 50%;
-  opacity: 0.2px;
+  opacity: 0.2;
   background: linear-gradient(
     120.02deg,
     #ffffff 12.77%,
@@ -1238,9 +1234,7 @@ body {
   position: absolute;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   width: 415px;
-  height: 338px;
   top: 698px;
   left: 140px;
 }
@@ -1322,4 +1316,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+}
+
+.buy_scooter_container {
+  width: 1160px;
+  height: 550px;
+  border: 1px dashed white;
+  margin-left: 140px;
+  margin-top: 714px;
 }
