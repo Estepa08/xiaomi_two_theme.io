@@ -1325,3 +1325,39 @@ body {
   margin-left: 140px;
   margin-top: 714px;
 }
+
+.footer_title_text_three {
+  font-family: Gilroy;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 49.5px;
+  text-align: left;
+  color: rgba(241, 241, 241, 1);
+}
+
+.price {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  color: rgba(255, 76, 13, 1);
+}
+
+.second_theme_switch {
+  margin: 0;
+}
+
+.button_buy {
+  width: 122px;
+  height: 54px;
+  padding: 15px 35px;
+  gap: 10px;
+  border-radius: 65px;
+  opacity: 0px;
+  background-color: rgba(255, 76, 13, 1);
+
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
