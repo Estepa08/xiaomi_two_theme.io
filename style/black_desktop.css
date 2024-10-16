@@ -99,18 +99,6 @@ body {
   opacity: 0.5;
 }
 
-.header_overlay_three {
-  position: absolute;
-  width: 860px;
-  height: 864px;
-  border-radius: 50%;
-  bottom: 1262px;
-  left: 746px;
-  background-color: rgba(252, 124, 31, 1);
-  filter: blur(280px);
-  opacity: 0.2;
-}
-
 .header_overlay_four {
   position: absolute;
   width: 579px;
@@ -632,6 +620,12 @@ body {
   z-index: 1;
 }
 
+.main_photo_container_one {
+  background-image: url(../images/main_photo_one.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .main_inner_text_container {
   display: flex;
   flex-direction: column;
@@ -641,14 +635,7 @@ body {
   margin-bottom: 60px;
   gap: 15px;
 }
-.main_photo_one {
-  z-index: 2;
-  width: 560px;
-  height: 407px;
-  background-image: url(../images/main_photo_one.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .main_photo_container_two {
   z-index: 2;
   background-image: url(../images/main_photo_two.png);
@@ -1324,9 +1311,10 @@ body {
   align-items: center;
   width: 1160px;
   height: 550px;
-  border: 1px dashed white;
   margin-left: 140px;
   margin-top: 714px;
+  background-image: url(../images/scooter_bg.png);
+  border-radius: 15px;
 }
 
 .footer_title_text_three {
