@@ -27,7 +27,7 @@ body {
   width: 60px;
   height: 39px;
   margin-right: 80px;
-  background-image: url(/images/xiaomi_logo.svg);
+  background-image: url('../images/xiaomi_logo.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
