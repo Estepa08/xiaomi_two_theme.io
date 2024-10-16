@@ -27,7 +27,7 @@ body {
   width: 60px;
   height: 39px;
   margin-right: 80px;
-  background-image: url(/images/xiaomi_logo.svg);
+  background-image: url(images/xiaomi_logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -69,7 +69,7 @@ body {
   bottom: 976px;
   width: 1946px;
   height: 1329px;
-  background-image: url(/images/white_bike.png);
+  background-image: url(images/white_bike.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -421,7 +421,7 @@ body {
 .container_three_content_photo_one {
   width: 760px;
   height: 400px;
-  background-image: url(/images/header_content_photo_one.png);
+  background-image: url(images/header_content_photo_one.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -429,7 +429,7 @@ body {
 .container_three_content_photo_two {
   width: 360px;
   height: 300px;
-  background-image: url(/images/header_content_photo_two.png);
+  background-image: url(images/header_content_photo_two.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -441,7 +441,7 @@ body {
   top: 1520px;
   height: 945px;
   width: 1522px;
-  background-image: url(/images/header_path.png);
+  background-image: url(images/header_path.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -450,7 +450,7 @@ body {
   display: flex;
   width: 1440px;
   height: 600px;
-  background-image: url(/images/header_content_photo_four.png);
+  background-image: url(images/header_content_photo_four.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -470,7 +470,7 @@ body {
   width: 60px;
   height: 39px;
   margin-bottom: 149px;
-  background-image: url(/images/xiaomi_logo.svg);
+  background-image: url(images/xiaomi_logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -643,13 +643,13 @@ body {
   z-index: 2;
   width: 560px;
   height: 407px;
-  background-image: url(/images/main_photo_one.svg);
+  background-image: url(images/main_photo_one.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main_photo_container_two {
   z-index: 2;
-  background-image: url(/images/main_photo_two.png);
+  background-image: url(images/main_photo_two.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -843,7 +843,7 @@ body {
   width: 760px;
   height: 400px;
   z-index: 1;
-  background-image: url(/images/container_four_photo_one.png);
+  background-image: url(images/container_four_photo_one.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -851,7 +851,7 @@ body {
   width: 360px;
   height: 300px;
 
-  background-image: url(/images/container_four_photo_two.png);
+  background-image: url(images/container_four_photo_two.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -884,7 +884,7 @@ body {
 }
 .main_mobile_photo_container {
   position: absolute;
-  background-image: url(/images/black_phone.png);
+  background-image: url(images/black_phone.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: 740px;
@@ -903,14 +903,14 @@ body {
 .app_store {
   width: 120px;
   height: 40px;
-  background-image: url(/images/app_store_white.svg);
+  background-image: url(images/app_store_white.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .google_play {
   width: 135px;
   height: 40px;
-  background-image: url(/images/google_play_white.svg);
+  background-image: url(images/google_play_white.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -919,7 +919,7 @@ body {
   width: 1256px;
   height: 1604px;
   position: absolute;
-  background-image: url(/images/main_path_bg_one.png);
+  background-image: url(images/main_path_bg_one.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -928,7 +928,7 @@ body {
   width: 1604px;
   height: 1256px;
   position: absolute;
-  background-image: url(/images/main_path_bg_two.png);
+  background-image: url(images/main_path_bg_two.png);
   background-repeat: no-repeat;
   background-size: contain;
   right: 1337px;
@@ -940,7 +940,7 @@ body {
   width: 620px;
   height: 530px;
   position: absolute;
-  background-image: url(/images/main_path_bg_three.png);
+  background-image: url(images/main_path_bg_three.png);
   background-repeat: no-repeat;
   background-size: contain;
   bottom: 382px;
@@ -952,7 +952,7 @@ body {
   overflow: hidden;
   width: 1440px;
   height: 600px;
-  background-image: url(/images/between_photo_five.png);
+  background-image: url(images/between_photo_five.png);
   background-color: rgba(232, 181, 119, 0.7);
   background-blend-mode: multiply;
 }
@@ -971,13 +971,13 @@ body {
   position: absolute;
   width: 428px;
   height: 792px;
-  background-image: url(/images/between_blur_five.png);
+  background-image: url(images/between_blur_five.png);
   background-repeat: no-repeat;
 }
 .between_xiaomi_logo_five {
   width: 60px;
   height: 39px;
-  background-image: url(/images/xiaomi_logo_red.png);
+  background-image: url(images/xiaomi_logo_red.png);
   background-repeat: no-repeat;
 }
 .between_title_text_five {
@@ -1004,7 +1004,7 @@ body {
   position: absolute;
   width: 60px;
   height: 39px;
-  background-image: url(/images/xiaomi_logo_red.png);
+  background-image: url(images/xiaomi_logo_red.png);
   background-repeat: no-repeat;
 }
 
@@ -1024,7 +1024,7 @@ body {
 .rect_three {
   width: 10px;
   height: 10px;
-  background-image: url(/images/rect_black.svg);
+  background-image: url(images/rect_black.svg);
   background-repeat: no-repeat;
 }
 
@@ -1193,7 +1193,7 @@ body {
   height: 54px;
   border-radius: 50%;
   background-color: rgba(241, 241, 241, 1);
-  background-image: url(/images/left.svg);
+  background-image: url(images/left.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px 24px;
@@ -1203,7 +1203,7 @@ body {
   height: 54px;
   border-radius: 50%;
   background-color: rgba(255, 76, 13, 1);
-  background-image: url(/images/right.svg);
+  background-image: url(images/right.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px 24px;
