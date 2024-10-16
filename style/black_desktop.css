@@ -1354,10 +1354,21 @@ body {
   border-radius: 65px;
   opacity: 0px;
   background-color: rgba(255, 76, 13, 1);
-
+  color: rgba(255, 255, 255, 1);
   font-family: Gilroy;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   text-align: center;
+}
+
+.footer_scooter_image {
+  position: absolute;
+  z-index: 2;
+  width: 966px;
+  height: 660px;
+  background-image: url(../images/footer_scooter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
