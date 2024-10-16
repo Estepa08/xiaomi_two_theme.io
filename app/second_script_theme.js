@@ -24,6 +24,10 @@ const mainGooglePlay = document.getElementById('google-play');
 const mainMobilePhoto = document.getElementById('main-mobile-photo');
 const footerScooterContainer = document.getElementById('buy-scooter-container');
 const footerScooterImage = document.getElementById('footer-scooter-image');
+const innerScooterDescriptions = document.getElementById(
+  'inner-scooter-descriptions'
+);
+const innerScooterTitle = document.getElementById('footer-title-text-three');
 
 let moved = false; // Переменная для отслеживания состояния
 
@@ -62,6 +66,8 @@ function toggleTheme() {
       'url(images/scooter_bg_white.png)';
     footerScooterImage.style.backgroundImage =
       'url(images/footer_scooter_black.svg)';
+    innerScooterDescriptions.style.color = 'rgba(21, 21, 21, 1)';
+    innerScooterTitle.style.color = 'rgba(21, 21, 21, 1)';
   } else {
     buttonTop.style.transform = 'translateX(0)'; // Возвращаем на место
     buttonBottom.style.transform = 'translateX(0)'; // Возвращаем вторую кнопку на место
@@ -91,6 +97,8 @@ function toggleTheme() {
     mainMobilePhoto.style.backgroundImage = 'url(images/black_phone.png)';
     footerScooterContainer.style.backgroundImage = 'url(images/scooter_bg.png)';
     footerScooterImage.style.backgroundImage = 'url(images/footer_scooter.svg)';
+    innerScooterDescriptions.style.color = 'rgba(255, 255, 255, 1)';
+    innerScooterTitle.style.color = 'rgba(255, 255, 255, 1)';
   }
 }
 
