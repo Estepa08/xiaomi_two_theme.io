@@ -1,7 +1,8 @@
 body {
-  margin: auto;
+  margin: 0;
   background-color: rgba(34, 34, 34, 1);
   overflow-x: hidden;
+  position: relative;
 }
 
 .header {
@@ -452,6 +453,7 @@ body {
   height: 600px;
   background-image: url(../images/header_content_photo_four.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -1034,6 +1036,7 @@ body {
 }
 
 .footer {
+  overflow: hidden;
   position: relative;
   width: 100%;
   height: 1842px;
@@ -1069,6 +1072,28 @@ body {
     121.95deg,
     #fc1f1f 13.18%,
     rgba(252, 203, 31, 0.31) 72.93%
+  );
+  filter: blur(280px);
+}
+
+.footer_overlay_three {
+  position: absolute;
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  width: 1218px;
+  height: 1242px;
+  top: 1081px;
+  left: 1362px;
+  gap: 0px;
+  opacity: 0.2;
+  border-radius: 50%;
+  opacity: 0.2px;
+  background: linear-gradient(
+    120.02deg,
+    #ffffff 12.77%,
+    rgba(255, 255, 255, 0) 57.08%
   );
   filter: blur(280px);
 }
