@@ -1,5 +1,7 @@
 const buttonTop = document.getElementById('theme-toggle');
+const buttonBottom = document.getElementById('theme-toggle-bottom'); // Вторая кнопка
 const container = document.getElementById('theme-switch');
+const containerBottom = document.getElementById('theme-switch-bottom'); // Контейнер второй кнопки
 const background = document.getElementById('background-theme');
 const blackText = document.getElementById('black-text');
 const imageBike = document.getElementById('image-bike');
@@ -20,17 +22,26 @@ const mainTextApp = document.getElementById('app-container-paragraph');
 const mainAppStore = document.getElementById('app-store');
 const mainGooglePlay = document.getElementById('google-play');
 const mainMobilePhoto = document.getElementById('main-mobile-photo');
+const footerScooterContainer = document.getElementById('buy-scooter-container');
+const footerScooterImage = document.getElementById('footer-scooter-image');
 
 let moved = false; // Переменная для отслеживания состояния
 
-buttonTop.addEventListener('click', () => {
-  // Перемещение вправо или влево в зависимости от состояния
-  if (!moved) {
+function toggleTheme() {
+  moved = !moved; // Переключаем состояние в начале
+  console.log('Theme toggled. Current state:', moved); // Отладочный лог
+
+  if (moved) {
     buttonTop.style.transform = 'translateX(122px)'; // Перемещение вправо на 122px
+    buttonBottom.style.transform = 'translateX(122px)'; // Перемещение второй кнопки
     buttonTop.textContent = 'Черный'; // Изменяем текст кнопки
+    buttonBottom.textContent = 'Черный'; // Текст второй кнопки
     buttonTop.style.backgroundColor = 'rgba(21, 21, 21, 1)';
+    buttonBottom.style.backgroundColor = 'rgba(21, 21, 21, 1)'; // Цвет второй кнопки
     buttonTop.style.color = 'rgba(241, 241, 241, 1)';
+    buttonBottom.style.color = 'rgba(241, 241, 241, 1)'; // Цвет текста второй кнопки
     container.style.border = '3px solid rgba(21, 21, 21, 1)';
+    containerBottom.style.border = '3px solid rgba(21, 21, 21, 1)'; // Бордер второй кнопки
     blackText.textContent = '';
     background.style.backgroundColor = 'rgba(224, 224, 224, 1)';
     imageBike.style.backgroundImage = 'url(images/black_bike.png)';
@@ -47,12 +58,21 @@ buttonTop.addEventListener('click', () => {
     mainAppStore.style.backgroundImage = 'url(images/app_store_black.svg)';
     mainGooglePlay.style.backgroundImage = 'url(images/google_play_black.svg)';
     mainMobilePhoto.style.backgroundImage = 'url(images/white_phone.png)';
+    footerScooterContainer.style.backgroundImage =
+      'url(images/scooter_bg_white.png)';
+    footerScooterImage.style.backgroundImage =
+      'url(images/footer_scooter_black.svg)';
   } else {
     buttonTop.style.transform = 'translateX(0)'; // Возвращаем на место
+    buttonBottom.style.transform = 'translateX(0)'; // Возвращаем вторую кнопку на место
     buttonTop.textContent = 'Белый'; // Изменяем текст кнопки обратно
+    buttonBottom.textContent = 'Белый'; // Текст второй кнопки обратно
     buttonTop.style.backgroundColor = 'rgba(241, 241, 241, 1)';
+    buttonBottom.style.backgroundColor = 'rgba(241, 241, 241, 1)'; // Цвет второй кнопки обратно
     buttonTop.style.color = 'rgba(34, 34, 34, 1)';
+    buttonBottom.style.color = 'rgba(34, 34, 34, 1)'; // Цвет текста второй кнопки обратно
     container.style.border = '3px solid rgba(241, 241, 241, 1)';
+    containerBottom.style.border = '3px solid rgba(241, 241, 241, 1)'; // Бордер второй кнопки обратно
     blackText.textContent = 'Черный';
     background.style.backgroundColor = 'rgba(34, 34, 34, 1)';
     imageBike.style.backgroundImage = 'url(images/white_bike.png)';
@@ -69,6 +89,11 @@ buttonTop.addEventListener('click', () => {
     mainAppStore.style.backgroundImage = 'url(images/app_store_white.svg)';
     mainGooglePlay.style.backgroundImage = 'url(images/google_play_white.svg)';
     mainMobilePhoto.style.backgroundImage = 'url(images/black_phone.png)';
+    footerScooterContainer.style.backgroundImage = 'url(images/scooter_bg.png)';
+    footerScooterImage.style.backgroundImage = 'url(images/footer_scooter.svg)';
   }
-  moved = !moved; // Переключаем состояние
-});
+}
+
+// Привязываем одну и ту же функцию к обеим кнопкам
+buttonTop.addEventListener('click', toggleTheme);
+buttonBottom.addEventListener('click', toggleTheme);
