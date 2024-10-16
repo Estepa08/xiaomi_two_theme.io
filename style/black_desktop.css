@@ -1213,7 +1213,7 @@ body {
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 415px;
   height: 338px;
   top: 698px;
@@ -1233,6 +1233,7 @@ body {
 .footer_title_text_two {
   width: 415px;
   height: 100px;
+  margin-bottom: 30px;
   font-family: Gilroy;
   font-size: 45px;
   font-weight: 500;
@@ -1241,9 +1242,10 @@ body {
   color: rgba(255, 76, 13, 1);
 }
 
-.button__answer {
+.button_question {
   width: 189px;
   height: 54px;
+  margin-top: 60px;
   border-radius: 65px;
   background-color: rgba(241, 241, 241, 1);
   color: rgba(21, 21, 21, 1);
@@ -1251,17 +1253,17 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  text-align: left;
+  text-align: center;
 }
 
 .answer_list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 15px;
   color: rgba(241, 241, 241, 1);
   width: 660px;
   height: 474px;
-  border: 1px solid white;
   position: absolute;
   left: 640px;
   top: 698px;
@@ -1291,8 +1293,8 @@ body {
 
 .answer_container_section {
   width: 660px;
-  height: 78px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
 }
